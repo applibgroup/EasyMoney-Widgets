@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:ability_main"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:padding="16vp"
+    ohos:orientation="vertical">
+    
+    <com.wajahatkarim3.easymoneywidgets.EasyMoneyEditText
+        ohos:id="$+id:moneyEditText"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="$string:sample_text"
+        ohos:padding="8vp"
+        ohos:text_size="20fp"
+        ohos:text_input_type="pattern_number"
+        ohos:top_margin="50fp"
+        ohos:background_element="$graphic:background_text"
+        showCurrencyEditText="true"
+        showCommasEditText="true"/>
+
+    <com.wajahatkarim3.easymoneywidgets.EasyMoneyTextView
+        ohos:id="$+id:moneyTextView"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:top_margin="20vp"
+        ohos:text="$string:sample_text"
+        ohos:text_size="20fp"
+        showCurrencyTextView="true"
+        showCommasTextView="true"/>
+
+    <Checkbox
+        ohos:id="$+id:checkCurrency"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="$string:to_show_currency"
+        ohos:text_size="18fp"
+        ohos:top_margin="50vp"
+        ohos:marked="true"
+        ohos:check_element="$graphic:checkbox_check_element"/>
+
+    <Checkbox
+        ohos:id="$+id:checkCommas"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="$string:to_show_commas"
+        ohos:text_size="18fp"
+        ohos:top_margin="10vp"
+        ohos:marked="true"
+        ohos:check_element="$graphic:checkbox_check_element"/>
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="$string:currency_picker"
+        ohos:text_size="15fp"
+        ohos:top_margin="20vp"
+        ohos:right_margin="40vp"
+        ohos:left_margin="40vp"/>
+
+    <Picker
+        ohos:id="$+id:pickerCurrency"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:normal_text_size="18fp"
+        ohos:selected_text_size="18vp"
+        ohos:selected_text_color="$ohos:color:id_color_alert"
+        ohos:left_margin="40vp"
+        ohos:right_margin="40vp"
+        ohos:top_margin="5vp"
+        ohos:background_element="#E1FFFF"/>
+
+</DirectionalLayout>
