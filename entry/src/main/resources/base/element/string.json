@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "EasyMoneyWidgets"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "sample_text",
+      "value": "123456"
+    },
+    {
+      "name": "to_show_currency",
+      "value": " Show Currency"
+    },
+    {
+      "name": "to_show_commas",
+      "value": " Show Commas"
+    },
+    {
+      "name": "currency_picker",
+      "value": "Currency Picker"
+    }
+  ]
+}

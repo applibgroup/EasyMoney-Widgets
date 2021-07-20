@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "currency_symbol_edit_text",
+      "value": "currencySymbolEditText"
+    },
+    {
+      "name": "show_currency_edit_text",
+      "value": "showCurrencyEditText"
+    },
+    {
+      "name": "show_commas_edit_text",
+      "value": "showCommasEditText"
+    },
+    {
+      "name": "currency_symbol_text_view",
+      "value": "currencySymbolTextView"
+    },
+    {
+      "name": "show_currency_text_view",
+      "value": "showCurrencyTextView"
+    },
+    {
+      "name": "show_commas_text_view",
+      "value": "showCommasTextView"
+    }
+  ]
+}
