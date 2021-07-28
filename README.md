@@ -20,31 +20,39 @@ Features
 
 Demo
 ====
-Install [Demo](https://github.com/wajahatkarim3/EasyMoney-Widgets/releases/download/1.0.0/EasyMoney-Widgets-Demo_1.0.0.apk) app or APK from [Releases](https://github.com/wajahatkarim3/EasyMoney-Widgets/releases) on your device and play with the values of EasyMoneyEditText and EasyMoneyTextView!
+Need to update once release is uploaded on Github
+<!--Install [Demo](https://github.com/wajahatkarim3/EasyMoney-Widgets/releases/download/1.0.0/EasyMoney-Widgets-Demo_1.0.0.apk) app or APK from [Releases](https://github.com/wajahatkarim3/EasyMoney-Widgets/releases) on your device and play with the values of EasyMoneyEditText and EasyMoneyTextView!
 
 Changelog
 =========
-Changes exist in the [releases](https://github.com/wajahatkarim3/EasyMoney-Widgets/releases) tab.
+Changes exist in the [releases](https://github.com/wajahatkarim3/EasyMoney-Widgets/releases) tab.-->
 
 Installation
 ============
-Add this in your app's build.gradle file:
-```groovy
-dependencies {
-  compile 'com.wajahatkarim3.EasyMoney-Widgets:EasyMoney-Widgets:1.0.0'
-}
+1. For using EasyMoney-Widgets module in sample app, include the source code and add the below dependencies in entry/build.gradle to generate hap/support.har.
+```
+	dependencies {
+		implementation project(':easymoneywidgetslibrary')
+        	implementation fileTree(dir: 'libs', include: ['*.har'])
+        	testCompile 'junit:junit:4.12'
+	}
+```
+2. For using EasyMoney-Widgets in separate application using har file, add the har file in the entry/libs folder and add the dependencies in entry/build.gradle file.
+```
+	dependencies {
+		implementation fileTree(dir: 'libs', include: ['*.har'])
+		testCompile 'junit:junit:4.12'
+	}
+
+```
+3. For using EasyMoney-Widgets from a remote repository in separate application, add the below dependencies in entry/build.gradle file.
+```
+	dependencies {
+		implementation 'dev.applibgroup:easymoneywidgetslibrary:1.0.0'
+		testCompile 'junit:junit:4.12'
+	}
 ```
 
-Or add EasyMoney-Widgets as a new dependency inside your pom.xml
-
-```xml
-<dependency>
-  <groupId>com.wajahatkarim3.EasyMoney-Widgets</groupId>
-  <artifactId>EasyMoney-Widgets</artifactId>
-  <version>1.0.0</version>
-  <type>pom</type>
-</dependency>
-```
 Usage
 =====
 XML
