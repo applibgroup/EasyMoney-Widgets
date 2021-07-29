@@ -10,6 +10,10 @@ The widgets (EditText and TextView) for support of money requirements like curre
 
 **NOTE:** This library support ALL and ANY kind of currency. The currencies in the demo are just for example. The library is NOT limited to those currencies.
 
+Source
+======
+Inspired from the android library [EasyMoney-Widgets](https://github.com/wajahatkarim3/EasyMoney-Widgets)
+
 Features
 ========
 * EasyMoneyEditText and EasyMoneyTextView widgets
