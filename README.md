@@ -10,6 +10,10 @@ The widgets (EditText and TextView) for support of money requirements like curre
 
 **NOTE:** This library support ALL and ANY kind of currency. The currencies in the demo are just for example. The library is NOT limited to those currencies.
 
+Source
+======
+Inspired from the android library [EasyMoney-Widgets](https://github.com/wajahatkarim3/EasyMoney-Widgets)
+
 Features
 ========
 * EasyMoneyEditText and EasyMoneyTextView widgets
@@ -61,52 +65,75 @@ XML
 ```EasyMoneyEditText``` in xml layouts (output will be ```$ 123,456,234```)
 ```xml
  <com.wajahatkarim3.easymoneywidgets.EasyMoneyEditText
-        android:id="@+id/moneyEditText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="123456234"
-        android:inputType="numberDecimal"
-        app:show_currency="true"
-        app:show_commas="true"
-        app:currency_symbol="$"
-        />
+        ohos:id="$+id:moneyEditText"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="123456234"
+        ohos:text_input_type="pattern_number"
+        showCurrencyEditText="true"
+        showCommasEditText="true"
+        currencySymbolEditText="$"/>
 ```
 ```EasyMoneyTextView``` in xml layouts (output will be ```$ 123,456,234```)
 ```xml
  <com.wajahatkarim3.easymoneywidgets.EasyMoneyTextView
-        android:id="@+id/moneyTextView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="123456234"
-        app:show_currency="true"
-        app:show_commas="true"
-        app:currency_symbol="$"
-        />
+        ohos:id="$+id:moneyTextView"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="123456234"
+        showCurrencyTextView="true"
+        showCommasTextView="true"
+        currencySymbolTextView="$"/>
 ```
 Customization in XML
 ---
-All customizable attributes for EasyMoneyWidgets
+All customizable attributes for EasyMoneyEditText
 <table>
     <th>Attribute Name</th>
     <th>Default Value</th>
     <th>Description</th>
     <tr>
-        <td>app:currency_symbol="$"</td>
-        <td>US Dollar $</td>
-        <td>The currency symbol for the widgets</td>
+	<td>currencySymbolEditText="$"</td>
+	<td>Chinese Yuan (¥)</td>
+	<td>The currency symbol for the widgets</td>
 	</tr>
     <tr>
-        <td>app:show_currency="true"</td>
+        <td>showCurrencyEditText="true"</td>
         <td>true</td>
         <td>Whether to show the currency symbol in the widgets</td>
     </tr>
-     <tr>
-            <td>app:show_commas="true"</td>
-            <td>true</td>
-            <td>Whether to show the commas between numbers in the widgets</td>
-        </tr>
-    </table>
-    
+    <tr>
+	<td>showCommasEditText="true"</td>
+	<td>true</td>
+	<td>Whether to show the commas between numbers in the widgets</td>
+    </tr>
+</table>
+
+---
+All customizable attributes for EasyMoneyTextView
+<table>
+    <th>Attribute Name</th>
+    <th>Default Value</th>
+    <th>Description</th>
+    <tr>
+	<td>currencySymbolTextView="$"</td>
+	<td>Chinese Yuan (¥)</td>
+	<td>The currency symbol for the widgets</td>
+	</tr>
+    <tr>
+        <td>showCurrencyTextView="true"</td>
+        <td>true</td>
+        <td>Whether to show the currency symbol in the widgets</td>
+    </tr>
+    <tr>
+	<td>showCommasTextView="true"</td>
+	<td>true</td>
+	<td>Whether to show the commas between numbers in the widgets</td>
+    </tr>
+</table>
+
+**NOTE:** The default value of currency symbol is set according to locale.
+
 In Code (Java)
 ----
 ```java
