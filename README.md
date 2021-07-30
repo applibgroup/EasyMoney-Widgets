@@ -6,7 +6,7 @@ EasyMoney-Widgets  [![Quality Gate Status](https://sonarcloud.io/api/project_bad
  
 The widgets (EditText and TextView) for support of money requirements like currency, number formatting, comma formatting etc. 
 
-![](https://github.com/wajahatkarim3/EasyMoney-Widgets/blob/master/Art/Demo.gif)
+![](https://github.com/KomalKalyan/EasyMoney-Widgets/blob/master/Art/Demo.gif)
 
 **NOTE:** This library support ALL and ANY kind of currency. The currencies in the demo are just for example. The library is NOT limited to those currencies.
 
