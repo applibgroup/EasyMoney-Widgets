@@ -16,9 +16,9 @@
 
 package com.wajahatkarim3.easymoneywidgets.demo;
 
-import com.wajahatkarim3.easymoneywidgets.demo.slice.MainAbilitySlice;
 import ohos.aafwk.ability.Ability;
 import ohos.aafwk.content.Intent;
+import com.wajahatkarim3.easymoneywidgets.demo.slice.MainAbilitySlice;
 
 /**
  * Ability to test EasyMoneyEditText and EasyMoneyTextView widgets.

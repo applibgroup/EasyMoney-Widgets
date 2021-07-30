@@ -16,13 +16,13 @@
 
 package com.wajahatkarim3.easymoneywidgets.demo.slice;
 
-import com.wajahatkarim3.easymoneywidgets.EasyMoneyEditText;
-import com.wajahatkarim3.easymoneywidgets.EasyMoneyTextView;
-import com.wajahatkarim3.easymoneywidgets.demo.ResourceTable;
 import ohos.aafwk.ability.AbilitySlice;
 import ohos.aafwk.content.Intent;
 import ohos.agp.components.Checkbox;
 import ohos.agp.components.Picker;
+import com.wajahatkarim3.easymoneywidgets.EasyMoneyEditText;
+import com.wajahatkarim3.easymoneywidgets.EasyMoneyTextView;
+import com.wajahatkarim3.easymoneywidgets.demo.ResourceTable;
 
 /**
  * AbilitySlice to test EasyMoneyEditText and EasyMoneyTextView widgets.
