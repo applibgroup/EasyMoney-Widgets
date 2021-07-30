@@ -1,15 +1,14 @@
 package com.wajahatkarim3.easymoneywidgets;
 
+import ohos.agp.components.AttrSet;
+import ohos.agp.components.Text;
+import ohos.agp.components.TextField;
+import ohos.app.Context;
 import com.wajahatkarim3.easymoneywidgets.util.AttrUtil;
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
 import java.util.Currency;
 import java.util.Locale;
-import ohos.agp.components.AttrSet;
-import ohos.agp.components.Text;
-import ohos.agp.components.TextField;
-import ohos.app.Context;
-
 
 /**
  * The EditText widget for support of money requirements like currency, number formatting, comma formatting etc.
